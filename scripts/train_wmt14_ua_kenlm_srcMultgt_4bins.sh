@@ -1,0 +1,13 @@
+python -u main.py --file_prefix ../data/WMT14_EnDe/ --src_train corpus.bpe32k.en --tgt_train corpus.bpe32k.de \
+  --src_valid newstest2013.bpe.en --tgt_valid newstest2013.bpe.de \
+  --save_vocab --bpe_src --bpe_tgt --num_of_steps 150000 \
+  --update_decay 6 --device 0 1 2 3 \
+  --batch_capacity 65536 \
+  --layer_norm_pre none --layer_norm_post learnable \
+  --layer_norm_encoder_start none --layer_norm_encoder_end none \
+  --layer_norm_decoder_start none --layer_norm_decoder_end none \
+  --src_pad_token "<PAD>" --src_unk_token "<UNK>" --src_sos_token "" --src_eos_token "<EOS>" \
+  --tgt_pad_token "<PAD>" --tgt_unk_token "<UNK>" --tgt_sos_token "<PAD>" --tgt_eos_token "<EOS>" \
+  --length_penalty 1.0 --beam_size 1 --max_save_models -1 \
+  --annotate "pre" --num_of_workers 8 --gpu_memory_limit 0.9 \
+  --difficulty_json difficulty/d_wmt_kemLM_srcMultgt_4_bin.json --fold_name "d_wmt_kemLM_srcMultgt_4_bin_150k"
