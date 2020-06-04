@@ -1,1 +1,1 @@
-# ua-cl-nmt
+# Uncertainty-Aware Curriculum Learning for Neural Machine Translation
