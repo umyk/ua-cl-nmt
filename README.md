@@ -12,8 +12,8 @@ We use the standard validation and test sets provided in each translation task.
 **Language Models**
 
 The main language models used in this paper can be obtained from the following links.
-KenLM https://github.com/kpu/kenlm 
-Bert as LM https://github.com/xu-song/bert-as-language-model
+- KenLM https://github.com/kpu/kenlm 
+- Bert as LM https://github.com/xu-song/bert-as-language-model
 
 **Data Uncertainty**
 
