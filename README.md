@@ -27,7 +27,7 @@ Follow these steps to calculate the data uncertainty and generate the data diffi
 
 4.Extract 1000 pairs of sentences from each bin to verify the model uncertainty for a certain stage.
 
-5.Build data difficulty JSON file. This is a example of data difficulty JSON file for 4 bins. These numbers are the indices of the sentences in a data file, the train_set represents all the data of the training set, the esti_set represents the estimation set.
+5.Build data difficulty JSON file. This is an example of data difficulty JSON file for 4 bins. These numbers are the indices of the sentences in a data file, the train_set represents all the data of the training set, the esti_set represents the estimation set.
 
 {
 
