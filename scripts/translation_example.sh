@@ -1,0 +1,12 @@
+python -u translate.py --prefix ../data/WMT14_EnDe/newstest2016.bpe. \
+	--src_test en --tgt_test de \
+	--src_vocab $VOCAB_DIR/src_vocab.pt \
+	--tgt_vocab $VOCAB_DIR/tgt_vocab.pt \
+	--model $MODEL_DIR/$STEPS.pt \
+	--params $MODEL_DIR/params.txt \
+	--device 0 --beam_size 4 \
+	--length_penalty 0.6 \
+	--infer_max_seq_length 50 \
+	--infer_max_seq_length_mode relative \
+	--output_prefix "wmt_en_de_16" \
+	--batch_size 32 
