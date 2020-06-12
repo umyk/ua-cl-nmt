@@ -68,5 +68,7 @@ An example of a training script could be found in the script folder. Most parame
 
 --fold_name	Specify the directory to store models.
 
+**Translation**
 
+An example of a translation script could be found in the script folder.
 
