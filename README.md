@@ -57,7 +57,7 @@ Follow these steps to calculate the data uncertainty and generate the data diffi
   
 }
 
-**Train**
+**Training**
 
 An example of a training script could be found in the script folder. Most parameters are quite obvious. Some parameters need to be specially set are explained as follows：
 
